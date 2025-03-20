@@ -9,9 +9,4 @@ Phn_Number VARCHAR(15),
 Password VARCHAR (50)
 );
 
-ALTER TABLE info AUTO_INCREMENT = 1;
-
-DELETE FROM info
-WHERE ID = ID > 0;
-
 SELECT * FROM info;
