@@ -1,0 +1,141 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: -2px 2px 1px #b3b3b3;
+}
+.heading2 {
+    margin-top: 170px;
+    text-shadow: -2px 2px 1px #b3b3b3;
+    text-align: center;
+}
+.cnt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    height: 550px;
+    width: 370px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 15px 35px 15px;
+}
+
+.error-msg {
+    font-size: 15px;
+    padding-bottom: 8px;
+    color: red;
+    text-align: center;
+}
+.er {
+    font-size: 10px;
+    color: red;
+}
+.inp-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-div {
+    width: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-log {
+    width: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.input {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.button {
+    height: 35px;
+    width: 80px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 7px;
+    font-weight: 600;
+    transition: 0.3s;
+    background: rgb(0, 140, 255);
+    cursor: pointer;
+}
+
+    .button:hover {
+        box-shadow: 0 0 6px rgb(0, 140, 255), 0 0 8px rgb(0, 140, 255), 0 0 12px rgb(0, 140, 255);
+    }
+
+.login {
+    font-weight: 550;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    color:black;
+    text-decoration:none;
+}
+
+    .login:hover {
+        color: rgb(0, 140, 255);
+    }
+
+#login {
+    height: 300px;
+    width: 370px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 15px 35px 15px;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #666;
+    font-size: 16px;
+}
