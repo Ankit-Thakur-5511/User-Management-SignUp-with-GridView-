@@ -122,8 +122,8 @@ namespace WebForm1
         {
             try
             {
-                string senderEmail = "ankitthakur64359@gmail.com";
-                string senderPassword = "jelq mjbt pvue uujh";
+                string senderEmail = "your-email@gmail.com";
+                string senderPassword = "your-password";
                 string smtpServer = "smtp.gmail.com";
                 int smtpPort = 587;
 
@@ -189,35 +189,3 @@ namespace WebForm1
             new Regex(@"^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$").IsMatch(password);
     }
 }
-
-
-/*  public void SendSms(string recipientNumber, string username)
-{
-    try
-    {
-        // Twilio Credentials
-        string accountSid = "your_account_sid"; // Get from Twilio
-        string authToken = "your_auth_token"; // Get from Twilio
-        string twilioNumber = "+1234567890"; // Your Twilio phone number
-
-        // Initialize Twilio client
-        TwilioClient.Init(accountSid, authToken);
-
-        // Message body
-        string messageBody = $"Hello {username}, welcome to our website! Thank you for signing up.";
-
-        // Send SMS
-        var message = MessageResource.Create(
-            body: messageBody,
-            from: new PhoneNumber(twilioNumber),
-            to: new PhoneNumber(recipientNumber) // User's phone number
-        );
-
-        Console.WriteLine("SMS sent successfully: " + message.Sid);
-    }
-    catch (Exception ex)
-    {
-        Console.WriteLine("Error sending SMS: " + ex.Message);
-    }
-}
-}  */
